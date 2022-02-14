@@ -16,7 +16,7 @@
     height:22rem;
     border:0.1rem solid var(--primary-color);
     border-radius: 0.8rem;
-    background-color: #293241;
+    background-color: var(--secondary-bg-color);
     cursor: pointer;
 }
 
@@ -33,8 +33,8 @@
     align-items:center;
     margin: 1rem 0rem;
     padding: 0rem 2rem;
-    color:#e0fbfc;
-    font-family: 'Akaya Telivigala', cursive;
+    color:var(--main-bg-color);
+    font-family: var(--main-font)
 }
 
 .quiz-card-title{
@@ -54,16 +54,16 @@
     border-radius:0.8rem;
     outline:none;
     border: none;
-    color: #e0fbfc;
-    background-color:#293241;
+    color: var(--main-bg-color);
+    background-color:var(--secondary-bg-color);
     font-size: 1rem;
     cursor: pointer;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: var(--main-font)
 }
 
 .quiz-card-play-btn:hover{
-    background-color:#e0fbfc;
-    color:#293241;
+    background-color:var(--main-bg-color);
+    color:var(--secondary-bg-color);
     font-weight:bolder;
     font-size: 1.2rem;
 }
