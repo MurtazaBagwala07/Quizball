@@ -34,7 +34,7 @@
     margin: 1rem 0rem;
     padding: 0rem 2rem;
     color:var(--main-bg-color);
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: var(--main-font)
 }
 
 .quiz-card-title{
@@ -58,7 +58,7 @@
     background-color:var(--secondary-bg-color);
     font-size: 1rem;
     cursor: pointer;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: var(--main-font)
 }
 
 .quiz-card-play-btn:hover{

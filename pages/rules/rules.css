@@ -19,7 +19,7 @@
     justify-content:flex-start;
     color: var(--primary-color);
     background-color: #e0fbfc;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: var(--main-font)
 }
 
 .rules-header{
