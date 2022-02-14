@@ -1,0 +1,69 @@
+.quiz-category-page{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-image: url("https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+
+.quiz-card-container{
+    width:18rem;
+    height:22rem;
+    border:0.1rem solid var(--primary-color);
+    border-radius: 0.8rem;
+    background-color: #293241;
+    cursor: pointer;
+}
+
+.quiz-card-image{
+    width:100%;
+    height:50%;
+    border-radius: 0.8rem;
+}
+
+.quiz-card-text{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 1rem 0rem;
+    padding: 0rem 2rem;
+    color:#e0fbfc;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.quiz-card-title{
+    text-align:center;
+    font-size:1.75rem;
+}
+
+.quiz-card-description{
+    margin: 1rem 0rem;
+    text-align:center;
+    font-size:1rem;
+}
+
+.quiz-card-play-btn{
+    width:100%;
+    height:2rem;
+    border-radius:0.8rem;
+    outline:none;
+    border: none;
+    color: #e0fbfc;
+    background-color:#293241;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.quiz-card-play-btn:hover{
+    background-color:#e0fbfc;
+    color:#293241;
+    font-weight:bolder;
+    font-size: 1.2rem;
+}

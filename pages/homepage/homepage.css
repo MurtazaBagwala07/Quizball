@@ -1,0 +1,61 @@
+.main-homepage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/FootyBg1.jpg');
+    background-size: cover;
+}
+
+.homepage-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
+.homepage-title{
+    font-size: 6rem;
+    margin: 2rem 0rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.homepage-play{
+    width:24rem;
+    height: 5rem;
+    font-size: 4rem;
+    outline:none;
+    border: none;
+    background-color: #0311b0;
+    color: #ffffff;
+    margin:2rem 0rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.homepage-play:hover,.homepage-auth-btn:hover{
+    color:#0311b0;
+    background-color: #ffffff;
+}
+
+.homepage-auth-btns{
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage-auth-btn{
+    outline:none;
+    border: none;
+    margin:1rem;
+    width:16rem;
+    height:4rem;
+    background-color: #0311b0;
+    color: #ffffff;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 2rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
